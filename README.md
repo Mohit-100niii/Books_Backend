@@ -32,6 +32,24 @@ This project aims to create a RESTful API using Node.js and Express that allows 
    ```bash
    npm start
 
+2. **Endpoints**
+
+   - **POST /api/books**
+     - **Description**: Create a new book entry.
+     - **Request Body**: JSON object with fields:
+
+   - **GET /api/books**
+     - **Description**: Retrieve a list of all books.
+
+   - **GET /api/books/:id**
+     - **Description**: Retrieve details of a specific book by its ID.
+
+   - **PUT /api/books/:id**
+     - **Description**: Update a book's information by its ID.
+     - **Request Body**: JSON object with fields to be updated:
+   
+   - **DELETE /api/books/:id**
+     - **Description**: Delete a specific book by its ID.
 
    
 
