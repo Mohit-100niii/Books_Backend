@@ -51,5 +51,18 @@ This project aims to create a RESTful API using Node.js and Express that allows 
    - **DELETE /api/books/:id**
      - **Description**: Delete a specific book by its ID.
 
-   
+## Postman Collection
+
+To facilitate testing, a Postman collection with pre-configured requests for each endpoint is provided. You can import this collection into Postman to quickly test the API.
+
+1. [Download the Postman Collection] https://drive.google.com/file/d/1T_B_bPPSQKvetW3Z5Lb1UJhRt5AzlPh3/view?usp=sharing
+
+2. **Importing into Postman**:
+   - Open Postman.
+   - Click on "Import" in the top-left corner.
+   - Select the downloaded Postman collection file.
+   - Click "Open" to import.
+
+   You will now have access to pre-configured requests for each endpoint in the collection.
+
 
