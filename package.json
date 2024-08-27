@@ -1,0 +1,21 @@
+{
+  "name": "books_backend",
+  "version": "1.0.0",
+  "description": "Books_Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "nodemon server.js"
+  },
+  "author": "Mohit Soni",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.5.4",
+    "nodemon": "^3.1.4"
+  }
+}
