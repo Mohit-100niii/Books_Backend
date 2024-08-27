@@ -20,7 +20,18 @@ This project aims to create a RESTful API using Node.js and Express that allows 
    git clone <repository-url>
    cd <repository-directory>
 2. **Install Dependencies
+   ```bash
     npm install
+3. **Setup Environment Variables
+   Create a .env file in the root directory with the following content
+   ```bash
+   MONGODB_URI=<your-mongodb-connection-string>
+   PORT=5000
+
+4. **Run the Server
+   ```bash
+   npm start
+
 
    
 
